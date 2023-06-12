@@ -1,69 +1,31 @@
 {
     "father": [
-        {
-            "John": "William"
-        },
-        {
-            "John": "David"
-        },
-        {
-            "John": "Adam"
-        },
-        {
-            "William": "Chris"
-        },
-        {
-            "William": "Stephanie"
-        },
-        {
-            "David": "Wayne"
-        },
-        {
-            "David": "Tiffany"
-        },
-        {
-            "David": "Julie"
-        },
-        {
-            "David": "Neil"
-        },
-        {
-            "David": "Peter"
-        },
-        {
-            "Adam": "Sophia"
-        }
+        { "John": "William" },
+        { "John": "David" },
+        { "John": "Adam" },
+        { "William": "Chris" },
+        { "William": "Stephanie" },
+        { "David": "Wayne" },
+        { "David": "Tiffany" },
+        { "David": "Julie" },
+        { "David": "Neil" },
+        { "David": "Peter" },
+        { "Adam": "Sophia" },
+        { "Albert": "Susan" }
     ],
     "mother": [
-        {
-            "Megan": "William"
-        },
-        {
-            "Megan": "David"
-        },
-        {
-            "Megan": "Adam"
-        },
-        {
-            "Emma": "Stephanie"
-        },
-        {
-            "Emma": "Chris"
-        },
-        {
-            "Olivia": "Tiffany"
-        },
-        {
-            "Olivia": "Julie"
-        },
-        {
-            "Olivia": "Neil"
-        },
-        {
-            "Olivia": "Peter"
-        },
-        {
-            "Lily": "Sophia"
-        }
-    ]
+        { "Megan": "William" },
+        { "Megan": "David" },
+        { "Megan": "Adam" },
+        { "Emma": "Stephanie" },
+        { "Emma": "Chris" },
+        { "Olivia": "Tiffany" },
+        { "Olivia": "Julie" },
+        { "Olivia": "Neil" },
+        { "Olivia": "Peter" },
+        { "Lily": "Sophia" },
+        { "Tiffany": "Susan" }
+    ],
+    "males": ["John", "William", "David", "Adam", "Wayne", "Chris", "Neil", "Peter", "Albert"],
+    "females": ["Lily", "Olivia", "Emma", "Megan", "Susan", "Sophia", "Julie", "Tiffany", "Stephanie"]
 }
