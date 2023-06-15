@@ -24,6 +24,9 @@ def children(name):
     res = run(0, x, conde([rel.father(name,x)], [rel.mother(name,x)]))
     return res
 
+def children_rule(x, y):
+    return conde([rel.father(x, y)], [rel.mother(x, y)])
+
 def siblings(name): 
     x, y = var(), var()
     return remove_from_tup(run(0, y, conde([rel.father(x, name), rel.father(x, y)])), name)
@@ -31,6 +34,9 @@ def siblings(name):
 def sibling_rule(x, y):
     z = var()
     return conde([rel.father(z, x), rel.father(z, y)])
+
+def sibling_rule_named(name, y):
+    return
 
 def grandparents(name):
     x, y = var(), var()
@@ -49,6 +55,10 @@ def uncles(name):
 def aunts(name):
     x, y = var(), var()
     return remove_from_tup(run(0, y, conde([parent_rule_named(name, x), sister_rule(x, y)])), mother(name))
+
+def nephews(name):
+    x, y = var(), var()
+    return run(0, y, conde([sibling_rule]))
 
 def remove_from_tup(tup, name):
     arr = list(tup)
