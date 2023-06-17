@@ -18,5 +18,8 @@ for item in d["males"]:
 for item in d["females"]:
     fact(rel.female, item)
 
-print(family.spouse("Albert"))
+# print(family.spouse("Albert"))
+
+for item in family.nieces("Mark"):
+    print(item)
   

@@ -6,11 +6,15 @@
         { "William": "Chris" },
         { "William": "Stephanie" },
         { "David": "Wayne" },
+        { "Nathan": "Olivia" },
+        { "Nathan": "Mark"},
+        { "Mark": "Chloe" },
         { "David": "Tiffany" },
         { "David": "Julie" },
         { "David": "Neil" },
         { "David": "Peter" },
         { "Adam": "Sophia" },
+        { "Wayne": "Sam" },
         { "Albert": "Susan" }
     ],
     "mother": [
@@ -24,8 +28,12 @@
         { "Olivia": "Neil" },
         { "Olivia": "Peter" },
         { "Lily": "Sophia" },
-        { "Tiffany": "Susan" }
+        { "Tiffany": "Susan" },
+        { "Ana": "Chloe"},
+        { "Christina": "Olivia" },
+        { "Christina": "Mark" },
+        { "Rose": "Sam" }
     ],
-    "males": ["John", "William", "David", "Adam", "Wayne", "Chris", "Neil", "Peter", "Albert"],
-    "females": ["Lily", "Olivia", "Emma", "Megan", "Susan", "Sophia", "Julie", "Tiffany", "Stephanie"]
+    "males": ["John", "William", "David", "Adam", "Wayne", "Chris", "Neil", "Peter", "Albert", "Sam", "Nathan", "Mark"],
+    "females": ["Lily", "Olivia", "Emma", "Megan", "Susan", "Sophia", "Julie", "Tiffany", "Stephanie", "Chloe", "Ana", "Christina", "Rose"]
 }
